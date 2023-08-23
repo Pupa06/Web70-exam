@@ -1,4 +1,4 @@
-import { users } from "../data/users";
+import { users } from "../data/users.js";
 
 export const validateRegisterData = (req, res, next) => {
     const { username, password, fullname } = req.body;

@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { users } from "../data/users";
-import { validateRegisterData } from "../middlewares/validateRegister";
+import { users } from "../data/users.js";
+import { validateRegisterData } from "../middlewares/validateRegister.js";
 import crypto from "crypto";
 
 const registerRouter = Router();

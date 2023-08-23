@@ -1,6 +1,6 @@
 import { Router } from "express";
-import { users } from "../data/users";
-import { validateLoginData } from "../middlewares/validateLogin";
+import { users } from "../data/users.js";
+import { validateLoginData } from "../middlewares/validateLogin.js";
 
 const loginRouter = Router();
 
